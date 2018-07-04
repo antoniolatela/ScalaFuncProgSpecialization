@@ -26,11 +26,9 @@ object Main {
         if (row == r) a(c) else loop(row + 1, a)
       }
     }
-
     loop(0, Array(1))
   }
   
-
   /**
     * Exercise 2
     */
